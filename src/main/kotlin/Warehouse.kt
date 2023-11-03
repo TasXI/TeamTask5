@@ -1,4 +1,3 @@
-import  Goods
 class Warehouse(val name: String) {
     private val inventory: MutableMap<Int, Goods> = mutableMapOf()
     fun addGoods(goods: Goods) {

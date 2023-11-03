@@ -1,5 +1,3 @@
-import  Goods
-import  Warehouse
 class Delivery {
     private val items: MutableMap<Int, Int> = mutableMapOf()
 

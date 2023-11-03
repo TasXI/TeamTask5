@@ -1,5 +1,3 @@
-import  Goods
-import  Warehouse
 class AccountingOrder (var warehouse: Warehouse) {
 
     fun showGoods(): String
